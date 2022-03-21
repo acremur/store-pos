@@ -1,6 +1,7 @@
 const initialState = {
     loading: false,
-    cartItems: []
+    cartItems: [],
+    collapsed: false
 }
 
 export const rootReducer = (state=initialState, action) => {
@@ -38,6 +39,11 @@ export const rootReducer = (state=initialState, action) => {
         case 'hideLoading': return {
             ...state,
             loading: false
+        }
+
+        case 'collapse': return {
+            ...state,
+            collapsed: true
         }
         
         default: return state

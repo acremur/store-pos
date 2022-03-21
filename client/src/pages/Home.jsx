@@ -11,15 +11,15 @@ function Home() {
   const [selectedCategory, setSelectedCategory] = useState('fruits')
   const categories = [
     {
-      name: 'Fruits',
+      name: 'fruits',
       imageURL: 'https://www.telemundo.com/sites/nbcutelemundo/files/images/promo/article/2017/04/13/naranja-manzana-y-otras-frutas-frescas.jpg'
     },
     {
-      name: 'Vegetables',
+      name: 'vegetables',
       imageURL: 'https://media.istockphoto.com/photos/food-background-with-assortment-of-fresh-organic-vegetables-picture-id1203599923?k=20&m=1203599923&s=170667a&w=0&h=LvOQlr2phnqGz0CvcsioFfvrMdQRsARRRpTaBfl4aoc='
     },
     {
-      name: 'Meat',
+      name: 'meat',
       imageURL: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/af/f552608f5111e3b74b0b94eba10f26/Course-Image.jpg?auto=format%2Ccompress&dpr=1'
     },
   ]
@@ -51,7 +51,7 @@ function Home() {
             className={`d-flex category ${selectedCategory === name && 'selected-category'}`}
             onClick={() => setSelectedCategory(name)}
           >
-            <h4>{name}</h4>
+            <h4 style={{ textTransform: 'capitalize' }}>{name}</h4>
             <img src={imageURL} alt={name} width={80} />
           </div>
         ))}

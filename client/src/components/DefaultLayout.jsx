@@ -19,7 +19,7 @@ const { Header, Sider, Content } = Layout
 
 const DefaultLayout = (props) => {
 
-  const [collapsed, setCollapsed] = useState(false)
+  const [collapsed, setCollapsed] = useState(window.innerWidth < 480 ? true : false)
   const { cartItems, loading } = useSelector(state => state.rootReducer)
   const navigate = useNavigate()
 
