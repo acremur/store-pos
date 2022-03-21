@@ -8,7 +8,7 @@ const usersRoutes = require('./routes/users')
 const billsRoutes = require('./routes/bills')
 
 app.use(express.json())
-// app.get('/', (req, res) => res.send('Welcome to MERN Stack Retail Store POS Application Backend!'))
+app.get('/api/test', (req, res) => res.send('Welcome to MERN Stack Retail Store POS Application Backend!'))
 app.use('/api/items', itemsRoutes)
 app.use('/api/users', usersRoutes)
 app.use('/api/bills', billsRoutes)
