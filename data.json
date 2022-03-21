@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Grapes",
+        "image": "https://www.collinsdictionary.com/images/full/grape_229112122.jpg",
+        "price": 7,
+        "category": "fruits"
+    },
+    {
+        "name": "Oranges",
+        "image": "https://produits.bienmanger.com/33285-0w470h470_Organic_Fresh_Oranges_From_Italy_New_Hall.jpg",
+        "price": 5,
+        "category": "fruits"
+    },
+    {
+        "name": "Mangoes",
+        "image": "https://cdn.shopify.com/s/files/1/0064/2714/8335/products/mango.jpg?v=1635330928",
+        "price": 10,
+        "category": "fruits"
+    },
+    {
+        "name": "Beans",
+        "image": "https://www.mensjournal.com/wp-content/uploads/mf/_main_beans_0.jpg?w=900&h=506&crop=1&quality=86&strip=all",
+        "price": 8,
+        "category": "vegetables"
+    },
+    {
+        "name": "Tomato",
+        "image": "https://www.collinsdictionary.com/images/full/tomato_281240360.jpg",
+        "price": 4,
+        "category": "vegetables"
+    },
+    {
+        "name": "Brinjol",
+        "image": "https://www.jiomart.com/images/product/original/590004102/brinjal-purple-striped-500-g-0-20201118.jpg",
+        "price": 6,
+        "category": "vegetables"
+    },
+    {
+        "name": "Chicken",
+        "image": "https://cdn.shopify.com/s/files/1/0215/9899/4504/products/nuggets-de-pollo-crocantes-750-g-aprox-precio-club-4145-pollos-100-natural-granja-magdalena-978257_800x.png?v=1646398256",
+        "price": 20,
+        "category": "meat"
+    },
+    {
+        "name": "Mutton",
+        "image": "https://5.imimg.com/data5/VK/QR/MY-3682375/mutton-leg-boneless-500x500.jpg",
+        "price": 25,
+        "category": "meat"
+    }
+]
