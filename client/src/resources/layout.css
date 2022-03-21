@@ -1,0 +1,260 @@
+#components-layout-demo-custom-trigger .trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+}
+  
+.site-layout .site-layout-background {
+    background: #fff;
+    box-shadow: 0 0 3px #ccc;
+    border-radius: 5px;
+}
+
+.ant-layout-has-sider {
+    padding: 15px !important;
+}
+
+.ant-layout-sider {
+    border-radius: 5px !important;
+}
+
+.ant-layout-sider-children {
+    padding-top: 15px;
+    padding-right: 20px;
+    height: 95vh !important;
+}
+
+.ant-layout-header {
+    margin: 0 10px !important;
+    margin-right: 0 !important;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.ant-layout-content {
+    height: 80vh;
+    overflow-y: scroll;
+    margin-bottom: 0 !important;
+    margin-right: 0 !important;
+}
+
+.ant-menu-item-selected {
+    background-color: #047979 !important;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.anticon svg {
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+}
+
+.logo h3 {
+    color: #06a5a5;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    padding-bottom: 10px;
+}
+
+.cart-count {
+    cursor: pointer;
+}
+
+.spinner {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.spinner-border {
+    height: 100%;
+    width: 100%;
+}
+
+input {
+    border: 1px solid rgb(0, 39, 31) !important;
+}
+
+input:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.ant-select-selector {
+    border: 1px solid rgb(0, 39, 31) !important;
+}
+
+button {
+    background-color: #06a5a5 !important;
+    color: white !important;
+    border-radius: 5px !important;
+    border-color: #047979 !important;
+}
+
+button:hover {
+    background-color: #047979 !important;
+    letter-spacing: 0.4px;
+}
+
+button:focus {
+    border: 1px solid #047979 !important;
+}
+
+.ant-btn-primary {
+    border-color: #047979 !important;
+}
+
+.ant-pagination-item {
+    border-color: #047979 !important;
+}
+
+.collapsed {
+    display: none;
+}
+
+.anticon-menu-fold,
+.anticon-menu-unfold,
+.cart-icon {
+    color: #047979 !important;
+}
+
+.cart-icon {
+    margin-left: 3px !important;
+}
+
+.icon {
+    color: #047979 !important;
+}
+
+@media (max-width: 480px) {
+    .ant-layout-header {
+        margin: 0 !important;
+    }
+    
+    .ant-layout-has-sider {
+        padding: 0 !important;
+    }
+    
+    .ant-layout-sider {
+        margin-top: 4rem;
+        border-radius: 0 !important;
+        position: absolute !important;
+        z-index: 100;
+        background-color: rgba(0, 0, 0, 0.5) !important;
+    }
+
+    .ant-menu {
+        background-color: rgba(0, 0, 0, 0.5) !important;
+    }
+
+    .ant-layout-content {
+        margin: 5px !important;
+        padding: 5px !important;
+    }
+
+    .ant-layout-sider-children {
+        padding-right: 0;
+    }
+
+    .ant-menu-title-content {
+        display: flex;
+    }
+
+    .ant-menu-item-selected {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        background-color: rgba(4, 121, 121, 0.5) !important;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .ant-table-content {
+        font-size: 8px;
+    }
+    
+    .ant-table-cell {
+        text-align: center !important;
+        padding: 2px !important;
+    }
+
+    .ant-table-cell img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .icon svg {
+        width: 12px !important;
+        height: 15px !important;
+    }
+
+    .ant-modal-close {
+        display: flex;
+        background-color: red !important;
+        border-radius: 50% !important;
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+        position: relative;
+        background-color: #047979 !important;
+    }
+
+    .ant-modal-close-x {
+        position: absolute;
+        transform: translate(-13px, -15px);
+    }
+
+    .ant-modal-header,
+    .ant-modal-body,
+    .bill-modal {
+        padding: 10px !important;
+    }
+
+    .bill-modal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bill-modal > div {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .bill-modal > div > div > h1 {
+        font-size: 15px;
+    }
+
+    button {
+        transform: scale(0.8) !important;
+    }
+
+    .ant-btn-primary {
+        transform: scale(0.8) !important;
+    }
+    
+    .ant-pagination-item {
+        transform: scale(0.8) !important;
+    }
+}
