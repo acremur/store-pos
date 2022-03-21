@@ -67,11 +67,14 @@ const DefaultLayout = (props) => {
         </Menu>
       </Sider>
       <Layout className="site-layout">
-        <Header className="site-layout-background" style={{ padding: 10 }}>
+        <Header className="site-layout-background d-flex" style={{ padding: 10 }}>
           {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
             className: 'trigger',
             onClick: toggle,
           })}
+          <div className='img-logo' onClick={() => navigate('/')}>
+            <img src="https://pbs.twimg.com/profile_images/519161184633634816/GDW8XWFw_400x400.jpeg" alt="" />
+          </div>
           <div onClick={() => navigate('/cart')} className="cart-count d-flex align-items-center">
             <b><p className='mt-3 mr-2'>{cartItems.length}</p></b>
             <ShoppingCartOutlined className='cart-icon' />
