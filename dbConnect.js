@@ -1,12 +1,7 @@
 const mongoose = require('mongoose')
 
-const URL = process.env.MONGO_URI
+const URL = 'mongodb+srv://acremur:xDN9cJmYTps8PyFv@shey-pos.hmzos.mongodb.net/shay-pos?retryWrites=true&w=majority'
 
 mongoose.connect(URL)
-
-let connectionObj = mongoose.connection
-
-connectionObj.on('connected', () => console.log('Mongo DB connection succesfull'))
-connectionObj.on('error', () => console.log('Mongo DB connection failed'))
-
-module.exports = {}
+.then(() => console.log('Mongo DB connection succesfull'))
+.catch(() => console.log('Mongo DB connection failed'))
